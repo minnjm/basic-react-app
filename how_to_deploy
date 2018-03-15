@@ -1,0 +1,9 @@
+install Jenkins and Docker in a VM, and run Jenkins outside of a container
+
+add jenkins id to docker, sudo, and adm group
+
+create a multibranch pipeline project in Jenkins
+
+observe that a docker stack was created from Jenkins pipeline
+	docker stack ls
+
