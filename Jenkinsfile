@@ -60,7 +60,6 @@ pipeline {
         BUILD_IMAGE_REPO_TAG = "${params.IMAGE_REPO_NAME}:${env.BUILD_TAG}"
       }
       steps{
-        sh "docker login -u minnjm -p t1me2sleep"
         //sh "docker push $BUILD_IMAGE_REPO_TAG"
         //sh "docker push ${params.IMAGE_REPO_NAME}:$COMMIT_TAG"
         //sh "docker push ${params.IMAGE_REPO_NAME}:${readJSON(file: 'package.json').version}"
